@@ -1,2 +1,2 @@
 # .net
-.net module assignments notes 
+.net module assignments
