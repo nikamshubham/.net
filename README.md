@@ -1,2 +1,2 @@
-# .net
-.net module assignments
+# .Net
+.Net module assignments
