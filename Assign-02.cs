@@ -32,7 +32,7 @@ namespace Assign2
         private string name;
         private int empno;
         private short deptno;
-        public decimal basic;
+        protected decimal basic;
         public static int count = 0;
         public string Name
         {
