@@ -29,7 +29,7 @@ namespace StructStudent
             //Console.WriteLine(obj[1]);
             //Console.WriteLine(obj[1].PName);
 
-            foreach (var item in obj)
+            foreach (Student item in obj)
             {
                 item.Display();
             }
