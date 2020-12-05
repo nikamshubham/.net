@@ -22,7 +22,8 @@ namespace ArrayAssignQ1
                 string name = Console.ReadLine();
                 Console.Write("Enter Salary = ");
                 decimal sal = Convert.ToDecimal(Console.ReadLine());
-                arr[i] = new Employee(eno,name,sal);
+                Employee e = new Employee(eno,name,sal);
+		    arr[i] = e;
             }
             
             foreach (var item in arr)
