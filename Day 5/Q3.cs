@@ -20,9 +20,8 @@ namespace StructStudent
                 int rollno = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Enter Marks = ");
                 int marks = Convert.ToInt32(Console.ReadLine());
-                obj[i].PName = name;
-                obj[i].PRollNo = rollno;
-                obj[i].PMarks = marks;
+                Student s = new Student(name,rollno,marks);
+                obj[i] = s;
             }
             //Console.WriteLine(obj.Length);
             //Console.WriteLine(obj[0]);
