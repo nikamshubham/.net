@@ -22,11 +22,14 @@ namespace ArrayAssignQ1
                 string name = Console.ReadLine();
                 Console.Write("Enter Salary = ");
                 decimal sal = Convert.ToDecimal(Console.ReadLine());
-                Employee e = new Employee(eno,name,sal);
-		    arr[i] = e;
+                arr[i] = new Employee();
+                
+                arr[i].empname = name;
+                arr[i].empno = eno;
+                arr[i].salary = sal; 
             }
             
-            foreach (var item in arr)
+            foreach (Employee item in arr)
             {
                 item.Details();
             }
