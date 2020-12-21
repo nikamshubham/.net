@@ -1,0 +1,19 @@
+﻿<Window x:Class="DatabaseExample_01.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseExample_01"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Margin="0,-1,0,1">
+        <Button x:Name="btnExecuteScalar" Content="Execute Scalar" HorizontalAlignment="Left" Margin="344,32,0,0" VerticalAlignment="Top" Width="113" Click="btnExecuteScalar_Click"/>
+        <Button x:Name="btnDataReader" Content="Data Reader" HorizontalAlignment="Left" Margin="344,71,0,0" VerticalAlignment="Top" Width="100" Click="btnDataReader_Click"/>
+        <ListBox x:Name="lstEmployee" HorizontalAlignment="Left" Height="147" Margin="91,32,0,0" VerticalAlignment="Top" Width="178"/>
+        <Button x:Name="btnExecuteReader" Content="Execute Reader" HorizontalAlignment="Left" Margin="344,111,0,0" VerticalAlignment="Top" Width="98" Click="btnExecuteReader_Click"/>
+        <Button x:Name="btnMARS" Content="MARS" HorizontalAlignment="Left" Margin="344,148,0,0" VerticalAlignment="Top" Width="101" Click="btnMARS_Click"/>
+        <Button x:Name="btnDataReadFromFunction" Content="Data Read From Function" HorizontalAlignment="Left" Margin="334,187,0,0" VerticalAlignment="Top" Width="150" Click="btnDataReadFromFunction_Click"/>
+
+
+    </Grid>
+</Window>

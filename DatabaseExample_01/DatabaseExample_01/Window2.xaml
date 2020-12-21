@@ -1,0 +1,21 @@
+﻿<Window x:Class="DatabaseExample_01.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseExample_01"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dgGridEmps" HorizontalAlignment="Left" Height="198" Margin="64,39,0,0" VerticalAlignment="Top" Width="302"/>
+        <Button x:Name="btnDataAdapter" Content="Fill DataSet" HorizontalAlignment="Left" Margin="422,49,0,0" VerticalAlignment="Top" Width="99" Click="btnDataAdapter_Click"/>
+        <Button x:Name="btnDataAdapter2" Content="Fill DataSet 2" HorizontalAlignment="Left" Margin="422,91,0,0" VerticalAlignment="Top" Width="113" Click="btnDataAdapter2_Click"/>
+        <Button x:Name="btnDataAdapter3" Content="Fill Data Set 3" HorizontalAlignment="Left" Margin="422,137,0,0" VerticalAlignment="Top" Width="113" Click="btnDataAdapter3_Click"/>
+        <DataGrid x:Name="DgGridDepartment" HorizontalAlignment="Left" Height="172" Margin="612,39,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="btnValidation" Content="Validation" HorizontalAlignment="Left" Margin="422,181,0,0" VerticalAlignment="Top" Width="113" Click="btnValidation_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="437,222,0,0" VerticalAlignment="Top" Width="75" Click="btnUpdate_Click"/>
+        <Button x:Name="btnFill" Content="Fill " HorizontalAlignment="Left" Margin="437,271,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+    </Grid>
+</Window>
